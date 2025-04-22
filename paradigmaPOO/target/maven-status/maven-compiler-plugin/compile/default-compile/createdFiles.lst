@@ -1,0 +1,6 @@
+Model\ClienteDAO.class
+Model\Cliente.class
+Controlador\clienteControlador.class
+Vista\ParadigmaPOO.class
+Model\ConexionBD.class
+Vista\FormCliente.class
