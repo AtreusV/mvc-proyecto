@@ -1,6 +1,6 @@
-Model\ClienteDAO.class
+Modelo\ClienteDAO.class
+com\mycompany\paradigmapoo\ParadigmaPOO.class
+Controlador\ControladorCliente.class
+Vista\ClienteVista.class
 Model\Cliente.class
-Controlador\clienteControlador.class
-Vista\ParadigmaPOO.class
 Model\ConexionBD.class
-Vista\FormCliente.class

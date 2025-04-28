@@ -1,18 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
+package com.mycompany.paradigmapoo;
 
-package Vista;
+import Vista.ClienteVista;
 
-/**
- *
- * @author artur
- */
 public class ParadigmaPOO {
-
     public static void main(String[] args) {
-        System.out.println("hello wolrd");
-        System.out.println();
+        ClienteVista vista = new ClienteVista();
+        
+        vista.mostrarMenu();
+        
     }
-    
 }

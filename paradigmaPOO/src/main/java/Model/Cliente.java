@@ -9,10 +9,10 @@ public class Cliente {
     public String Apellido;
     public String Usuario;
     public String password;
-    public int NroCelular;
+    public Long NroCelular;
     public String email;
 
-    public Cliente(int ID, String TipoID, String Nombre, String Apellido, String Usuario, String password, int NroCelular, String email) {
+    public Cliente(int ID, String TipoID, String Nombre, String Apellido, String Usuario, String password, Long NroCelular, String email) {
         this.ID = ID;
         this.TipoID = TipoID;
         this.Nombre = Nombre;
@@ -23,7 +23,7 @@ public class Cliente {
         this.email = email;
     }
     
-    public Cliente(String TipoID, String Nombre, String Apellido, String Usuario, String password, int NroCelular, String email) {
+    public Cliente(String TipoID, String Nombre, String Apellido, String Usuario, String password, Long  NroCelular, String email) {
         this.TipoID = TipoID;
         this.Nombre = Nombre;
         this.Apellido = Apellido;
@@ -59,7 +59,7 @@ public class Cliente {
         return password;
     }
 
-    public int getNroCelular() {
+    public Long getNroCelular() {
         return NroCelular;
     }
 
@@ -96,7 +96,7 @@ public class Cliente {
         this.password = password;
     }
 
-    public void setNroCelular(int NroCelular) {
+    public void setNroCelular(Long NroCelular) {
         this.NroCelular = NroCelular;
     }
 
@@ -104,9 +104,7 @@ public class Cliente {
         this.email = email;
     }
     
-    
-    
-    
+
     
     //toString
     @Override
